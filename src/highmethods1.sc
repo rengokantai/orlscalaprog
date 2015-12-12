@@ -14,4 +14,6 @@ a.reduceLeft(_+_)
 
 a.foldLeft("0")(_+_)
 
+b.find(_%2==0).map(_+5).getOrElse(0)
+
 
